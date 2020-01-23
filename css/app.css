@@ -4,3 +4,10 @@
 .top-bar .menu{
     background-color: transparent;
 }
+.info-cards .cell{
+    display: flex;
+    align-items: stretch;
+}
+.card-image{
+    height: 300px;
+}
