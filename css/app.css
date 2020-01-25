@@ -1,13 +1,16 @@
-.top-bar{
-    background-color: transparent;
+.top-bar {
+  background-color: transparent;
 }
-.top-bar .menu{
-    background-color: transparent;
+.top-bar .menu {
+  background-color: transparent;
 }
-.info-cards .cell{
-    display: flex;
-    align-items: stretch;
+.info-cards .cell {
+  display: flex;
+  align-items: stretch;
 }
-.card-image{
-    height: 300px;
+.card-image {
+  height: 300px;
+}
+.grid-container {
+  margin-bottom: 40px;
 }
