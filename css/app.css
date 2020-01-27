@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .top-bar {
   background-color: transparent;
 }
@@ -13,4 +16,16 @@
 }
 .grid-container {
   margin-bottom: 40px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  -webkit-box-shadow: -1px 17px 32px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 17px 32px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 17px 32px 0px rgba(0, 0, 0, 0.5);
+}
+.sticky + main {
+  padding-top: 102px;
 }
