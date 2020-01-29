@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+.header{
+    margin:20px 0;
+}
 .top-bar {
   background-color: transparent;
 }
@@ -12,7 +15,7 @@ html {
   align-items: stretch;
 }
 .card-image {
-  height: 300px;
+  height:auto;
 }
 .grid-container {
   margin-bottom: 40px;
